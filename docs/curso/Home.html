@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inicio</h1>
+    <p>
+        <form action="https://webhook.site/14ba17a9-097b-487e-b910-26bdb79f25dc" method="POST">
+            <fieldset>
+                <legend>Dados pessoais para acesso</legend>
+                <p>
+                    <abbr>*</abbr>
+                    <label for="campo_nome">Nome:</label>
+                    <input type="text" nome="Nome" id="campo_nome" required placeholder="Nome e sobrenome">
+                <p>
+                    <abbr>*</abbr>
+                    <label for="campo_cpf">CPF:</label>
+                    <input type="text" nome="CPF" id="campo_cpf" required placeholder=".../.../...-..">
+                <p>
+                    <abbr>*</abbr>
+                    <label for="campo_nasc">Data de nascimento:</label>
+                    <input type="date" nome="Datanascimento" id="campo_nasc" required placeholder="Data">
+                </p>
+          </fieldset>
+                <p>
+          <fieldset>
+            <legend>CEP</legend>
+                <p>
+                    <abbr>*</abbr>
+                    <label for="campo_estado"> Estado:</label>
+                    <select>
+                        <optgroup label="Estado">
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Minas Gerais">Minas Gerais</option>
+                        <option value="Espirito Santo">Espirito Santo</option>
+                        </optgroup>
+                    </select>
+                    <p>
+                        <abbr>*</abbr>
+                    <label for="campo_endereço">Endereço:</label>
+                    <input type="text" nome="endereço" id="campo_endereço" required placeholder="Obrigatório">
+                    <abbr>
+                    <label for="campo_numero">N°:</label>
+                    <input type="number" nome="numero" id="campo_numero" required placeholder="Obrigatório">
+                    <label for="campo_complemento">Complemento:</label>
+                    <input type="text" nome="complemento" id="campo_complemento">
+            
+          </fieldset>
+          <button type="submit">Enviar</button>
+        </form>
+     
+    
+
+        
+</body>
+</html>
