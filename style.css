@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(255, 251, 0);
+    padding: 2em;
+    text-align: center;
+    border-radius: 1.2em;
+}
+nav{
+    background-color: orange;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.342);
+    border-radius: 0em 1em 0em 1em;
+}
+nav > a{
+    color: rgb(253, 223, 168);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+}
+
+body{
+    text-align: center;
+    background-color: orange;
+}
