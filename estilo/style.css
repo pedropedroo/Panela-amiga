@@ -1,0 +1,154 @@
+:root {
+    --cor0: #FE9226;
+    --cor1: #D96704;
+    --cor2: #d44200;
+    --cor3: #FA0501;
+    --cor4: #261201;
+    --cor5: #FFFFFF;
+    --cor6: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+
+
+h3 {
+    font-size: 1.5em; 
+    color: var(--cor2);
+    margin-top: 1.25em;
+}
+
+main nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.875em;
+}
+
+main nav a {
+    text-decoration: none;
+    background-color: var(--cor2);
+    color: var(--cor5);
+    padding: 0.625em 1.25em; 
+    font-size: 1em; 
+    border-radius: 0.3125em; 
+    margin: 0.3125em; 
+}
+
+main nav a:hover {
+    background-color: var(--cor1);
+}
+
+p {
+    font-size: 1em; 
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1.25em; 
+}
+
+br {
+    margin-bottom: 1.875em;
+}
+
+main.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.25em;
+}
+
+main.user > div {
+    flex: 1;
+    margin-right: 1.25em;
+    text-align: left;
+}
+
+main.user h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 0.625em;
+}
+
+main.user p {
+    font-size: 1em; 
+    color: #666;
+    margin-bottom: 0.625em; 
+}
+
+main.user ul {
+    font-size: 1em;
+    color: #666;
+    list-style-type: square;
+    margin-left: 1.25em; 
+    margin-bottom: 1.25em; 
+}
+
+main.user fieldset {
+    border: 0.0625em solid #ccc; 
+    border-radius: 0.3125em;
+    padding: 0.625em; 
+    margin-bottom: 1.25em; 
+}
+
+main.user legend {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #333;
+}
+
+main.user label {
+    font-size: 1em; 
+    color: #333;
+    margin-top: 0.625em; 
+}
+
+main.user input[type="text"],
+main.user input[type="email"],
+main.user input[type="password"],
+main.user input[type="date"],
+main.user input[type="number"],
+main.user input[type="tel"],
+main.user select {
+    width: 100%;
+    padding: 0.625em; 
+    font-size: 1em; 
+    border: 0.0625em solid #ccc; 
+    border-radius: 0.3125em; 
+    margin-top: 0.3125em; 
+    margin-bottom: 0.625em;
+}
+
+main.user button[type="submit"] {
+    background-color: var(--cor3);
+    color: #fff;
+    padding: 0.625em 1.25em; 
+    font-size: 1.125em;
+    border: none;
+    border-radius: 0.3125em;
+    cursor: pointer;
+    margin-top: 0.625em;
+}
+
+main.user form a {
+    text-decoration: none;
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+main.user input:required {
+    border-color: var(--cor3);
+}
+

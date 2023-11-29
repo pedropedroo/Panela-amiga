@@ -1,0 +1,34 @@
+.receitas {
+    align-items: flex-start; 
+    margin: 1em;
+    display: flex;
+}
+
+.receitas img { /* Defina o tamanho máximo da imagem conforme necessário */
+    margin-right: 1em; /* Adiciona espaço entre a imagem e o texto */
+}
+
+.receitas_ingredientes-descricao,
+.receitas_preparo-descricao {
+    color: var(--cor1);
+    font-size: 1.5rem;
+    margin-left: 5em;
+}
+
+.receitas_ingredientes-item,
+.receitas_preparo-item {
+    list-style: none;
+    padding-bottom: 0.5em;
+    margin-left:5em; /* Remove a margem anteriormente aplicada para evitar espaçamento extra */
+}
+
+.receitas_preparo-item {
+    padding-bottom: 1em;
+    width: 50%;
+}
+
+.receita_titulo {
+    color:var(--cor1);
+    text-align: center;
+    margin: 1em;
+}

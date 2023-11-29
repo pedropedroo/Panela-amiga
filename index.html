@@ -5,61 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panela Amiga</title>
+    <link rel="stylesheet" href="estilo/header.css">
+    <link rel="stylesheet" href="estilo/main.css">
+    <link rel="stylesheet" href="estilo/footer.css">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/receitas.css">
+    
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="logo"><img src="imagens/logoPanelaAmiga.png"></div>
-            <div class="menu">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="receitas.html">Receitas</a>
-                    <a href="sobre.html">Sobre</a>
-                </nav>
-            </div>
+        <section class="menu">
+            <nav class="menu_link">
+                <a class="menu_link-item" href="index.html">Home</a>
+                <a class="menu_link-item" href="receitas.html">Receitas</a>
+                <a class="menu_link-item" classhref="sobre.html">Sobre</a>
+            </nav>
+
+            <div class="logo"><img src="imagens/logoPanelaAmiga.png" width="100"></div>
+            
             <div class="user">
                 <a href="user.html">Login/Cadastrar</a>
             </div>
-        </div>
+        </section>
     </header>
 
     <main>
-        <h2>O que vamos fazer hoje?</h2>
+        <h1 class="titulo_principal">O que vamos fazer hoje?</h1>
         <form action="#" method="get">
             <label for="search">Digite o nome da receita:</label>
-            <input type="text" id="search" name="search" placeholder="Exemplo: miojo" required>
-            <button type="submit">Pesquisar</button>
+            <input type="text" id="search" name="search" placeholder="Exemplo: Lasanha de frango" required>
+            <button class="botao" type="submit">Pesquisar</button>
         </form>
 
-            <section class="destaques">
-                <h2>Receitas em Destaque</h2>
+        <section class="destaques">
+            <h2 class="receita_destaque">Receitas em Destaque</h2>
                 <div class="receita">
                     <img src="imagens/lasanha-frango.jpg" alt="">
                     <h3>Lasanha de Frango</h3>
                     <p>Uma lasanha deliciosa com frango, molho de tomate e queijo derretido.</p>
-                    <a href="#">Ver Receita</a>
+                    <a href="almoco.html">Ver Receita</a>
                 </div>
         
                 <div class="receita">
                     <img src="imagens/sopa-abobora.jpg" alt="">
                     <h3>Sopa de Abóbora</h3>
                     <p>Uma sopa quentinha e reconfortante feita com abóbora fresca e especiarias.</p>
-                    <a href="#">Ver Receita</a>
+                    <a href="jantar.html">Ver Receita</a>
                 </div>
         
                 <div class="receita">
                     <img src="imagens/torta-maca.jpg" alt="">
                     <h3>Torta de Maçã</h3>
                     <p>Uma sobremesa clássica com maçãs frescas, canela e uma crosta de massa de dar água na boca.</p>
-                    <a href="#">Ver Receita</a>
+                    <a href="cafe-da-tarde.html">Ver Receita</a>
                 </div>
-            </section>
+        </section>
+
+            <h2 class="receita_destaque">Categorias</h2>
+            <br>
+        <section class="categoria">
+            <div class="sessao">
+                <img src="imagens/cafeManha.jpg" alt="#">
+                <a href="/receitas.html">Café da Manhã</a>
+            </div>
+
+            <div class="sessao">
+                <img src="imagens/almoco.jpg" alt="#">
+                <a href="/receitas.html">Almoço</a>
+            </div>
+
+            <div class="sessao">
+                <img src="imagens/cafeTarde.jpg" alt="#">
+                <a href="/receitas.html">Café da Tarde</a>
+            </div>
+
+            <div class="sessao">
+                <img src="imagens/jantar.jpg" alt="#">
+                <a href="/receitas.html">Jantar</a>
+            </div>
+        </section>
         
-            <section class="sobre">
-                <h2>Sobre Nós</h2>
-                <p>Bem-vindo ao nosso projeto apaixonante, um site de culinária único e repleto de sabor, concebido e construído com dedicação por um grupo de estudantes dedicados de Análise e Desenvolvimento de Sistemas. Unindo nossa paixão por tec...<a href="sobre.html">Ler mais</a></p>
-            </section>
+        <section class="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo ao nosso projeto apaixonante, um site de culinária único e repleto de sabor, concebido e construído com dedicação por um grupo de estudantes dedicados de Análise e Desenvolvimento de Sistemas. Unindo nossa paixão por tec...<a href="sobre.html">Ler mais</a></p>
+        </section>
     </main>
 
     <footer class="footer">
