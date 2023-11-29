@@ -1,14 +1,8 @@
 # Projeto-PanelaAmiga
 # Tema do projeto: Site de Culinária - Panela Amiga
 # Leonardo Hideki Kuriki 202302381431
-<<<<<<< HEAD
 # Pedro Otávio Pereira Ramalho 202308397141
 # Thiago Moscatini Carvalho 202302382428
-=======
-# Thiago Moscatini Carvalho 202302382428
-# Pedro Otávio Pereira Ramalho 202308397141
-
-
 
 O "Projeto Panela Amiga" é uma iniciativa do nosso grupo sobre culinária com a eficiência da programação web. Nosso objetivo é proporcionar uma experiência gastronômica única, simplificando o acesso a receitas deliciosas e inspiradoras que elevam o sabor do seu dia a um novo patamar.
 
