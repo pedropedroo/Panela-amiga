@@ -1,5 +1,5 @@
-# Panela-amiga#
-Projeto-PanelaAmiga
+# Panela-amiga
+# Projeto-PanelaAmiga
 # Tema do projeto: Site de Culinária - Panela Amiga
 # Leonardo Hideki Kuriki 202302381431
 # Pedro Otávio Pereira Ramalho 202308397141
@@ -14,4 +14,3 @@ Nossa plataforma contem filtros de pesquisa, categorias temáticas e dicas útei
 Além disso, estamos comprometidos com a comunidade culinária, incentivando a participação dos usuários. Você pode compartilhar suas próprias receitas, dicas especiais e até mesmo criar um perfil personalizado para interagir com outros entusiastas da culinária.
 
 No âmbito do "Projeto Panela Amiga", entendemos que a alimentação transcende a mera necessidade, tornando-se uma expressão legítima de criatividade e cultura. Nosso compromisso é reformular a sua experiência culinária, Convidamos você a integrar-se a esta iniciativa gastronômica e explorar um universo de sabores. Sua degustação será enriquecida com gratidão.
->>>>>>> 3d8a4c6e1e6677013b356066db82af6074b15100
