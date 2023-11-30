@@ -3,7 +3,7 @@ $(document).ready(function () {
         event.preventDefault();
 
         var formData = $(this).serialize();
-        var backendURL = 'https://hidekileonardo.github.io/Backend-PanelaAmiga/conexao.php';
+        var backendURL = 'http://localhost/Panela/Backend-PanelaAmiga/user.php';
         $.ajax({
             type: 'POST',
             url: backendURL,
